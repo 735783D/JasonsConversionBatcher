@@ -19,8 +19,8 @@ if perm == "y":
     # Start of script that parses the csv and pulls out the specific columns
     df = pd.read_excel(input_Excel_file)
     #print(df.head())
-    #print(df.loc[:, ['Encrypted_MCID', 'CaseID', 'RegionID', 'HomeMarketId', 'Pref_lang', 'Encrypted_Customer_Id']].head())
-    df.loc[:, ['Encrypted_MCID', 'CaseID', 'RegionID', 'HomeMarketId', 'Pref_lang', 'Encrypted_Customer_Id']].to_csv(split_source_file, index=False)#, header=False)
+    #print(df.loc[:, ['Encrypted_Customer_Id', 'CaseID', 'RegionID', 'HomeMarketId', 'Pref_lang', 'Survey_Link']].head())
+    df.loc[:, ['Encrypted_Customer_Id', 'CaseID', 'RegionID', 'HomeMarketId', 'Pref_lang', 'Survey_Link']].to_csv(split_source_file, index=False)#, header=False)
 
     file = open(split_source_file, "r")
     file2 = open("temp.json", "w")
