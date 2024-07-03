@@ -145,7 +145,7 @@ with open(split_source_file, "r") as file:
             # blurbSubject = "MIGRATION_SUBJECT"
             # blurbBody = "MIGRATION"
 
-            blurbSubject = 'MIGRATION_V_1_SUBJECE'
+            blurbSubject = 'MIGRATION_V_1_SUBJECT'
             blurbBody = 'MIGRATION_V_1'
 
             # blurbSubject = 'MANUAL_CONTACT'
