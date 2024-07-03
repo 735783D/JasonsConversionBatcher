@@ -11,3 +11,12 @@ This is specifically used for Excel, though you can tune it to work on just a ba
 Once you have your column names matching, you just give it the absolute path of the file and run the script. 
 It outputs the batched JSON formatted files to wherever you set the output path to. 
 And that's it. Hope this saves someone some time like it did my team and myself.
+
+This script requrires the following libraries to run:
+- pandas
+- openpyxl
+
+These can be installed by running the following command in a terminal that has pip installed:
+```
+pip install pandas openpyxl
+```
