@@ -1,0 +1,17 @@
+Blurb count by language:
+	Chinese: 2
+	English: 4
+	French: 2
+	German: 2
+	Italian: 2
+	Japanese: 2
+	Portuguese: 2
+	Spanish: 2
+	Turkish: 2
+	Swedish: 0
+	Polish: 0
+	Dutch: 0
+	Total number of Ids in Batches: 20
+Number of dynamic variables: 20
+Total seconds: 2280 seconds
+Total hours saved: 0.6333333333333333 hrs
