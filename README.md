@@ -26,3 +26,6 @@ When the script is run successfully the output will look like the following:
 ```
 
 The statistics that are generated from the calculations is delivered in a .txt file. There is an example in the sidebar along with the fake data in an example Excel sheet.
+
+I only used 20 rows in the example Excel sheet. But I have run this on a campaign of over 80,000. The variable `max_lines_per_file` is set to 300 in the example. But you can tune this to however large or small you want
+your batches to be. AWS Lambda has a standard default of 1000 invocations as its maximum. If your batch file exceeds that and you are using something like AWS StepFunctions attached to an AWS Lambda you may run into errors.
