@@ -5,3 +5,9 @@ there would not be an issue with a customer either receiving an email twice for 
 I kept iterating over the script after I was told about the metric collection for time savings that we were supposed to be calcuating with our email campaigns. These automated campaigns were saving the time of the account managers from emailing the customers manually. 
 So I put a calculation function into the script to keep track of all of the necessary information that would then be calculated at the end to get the time savings. This script took what used to be an all day thing into just a couple of hours. Not to mention, I really
 loved building and iterating over it making it better each time.
+
+To use this script, you need to have the very specific column names that it will be parsing on as the headers for your columns in your Excel sheet. 
+This is specifically used for Excel, though you can tune it to work on just a basic CSV file. 
+Once you have your column names matching, you just give it the absolute path of the file and run the script. 
+It outputs the batched JSON formatted files to wherever you set the output path to. 
+And that's it. Hope this saves someone some time like it did my team and myself.
