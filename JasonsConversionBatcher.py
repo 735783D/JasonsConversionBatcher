@@ -115,7 +115,7 @@ with open(split_source_file, "r") as file:
             elif lang == 'French':
                 french_count = french_count + 1
             elif lang == 'Italian':
-                 italian_count = italian_count + 1
+                italian_count = italian_count + 1
             # elif lang == 'Polish':
             #     polish_count = polish_count + 1
             # elif lang == 'Swedish':
