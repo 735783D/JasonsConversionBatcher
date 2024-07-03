@@ -20,3 +20,9 @@ These can be installed by running the following command in a terminal that has p
 ```
 pip install pandas openpyxl
 ```
+When the script is run successfully the output will look like the following:
+```
+{"entityIdentifier":"ASODNFO23RAWE-1", "actionKey":"createCaseAndPostReply", "region":"1", "eligibleActions":["createCaseAndPostReply"], "inputAttributes": {"developerId":"ASODNFO23RAWE", "blurbSubject":"MIGRATION_V_1_SUBJECT", "blurbName":"MIGRATION_V_1", "caseStatus": "Pending Merchant Action", "reasonString": "Migration - Newer Library Update", "marketplaceIds":"1", "fromAddress": "thing_no-reply@there.com", "fromName":"WhoThisIsComingFrom@somewhere.com", "formDetails": "{\"formLink\":\"\"}", "queueName":"thing_no-reply@there.com", "timeBoundInput": "", "language":"English"}, "ttl":1}
+```
+
+The statistics that are generated from the calculations is delivered in a .txt file. There is an example in the sidebar along with the fake data in an example Excel sheet.
