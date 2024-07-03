@@ -46,7 +46,7 @@ sheet_name = 'Sheet1'  # Replace with the sheet name you're working with
 df = pd.read_excel(excel_file, sheet_name=sheet_name)
 
 # Specify the column you want to check for duplicates
-column_to_check = 'Encrypted_MCID'  # Replace with the actual column name
+column_to_check = 'Encrypted_CID'  # Replace with the actual column name
 
 # Finds and extracts the duplicated rows
 duplicates = df[df.duplicated(subset=column_to_check, keep='first')]
