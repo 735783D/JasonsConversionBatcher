@@ -162,8 +162,8 @@ with open(split_source_file, "r") as file:
                 sender = "beta-general@there.com"
             else:
                 if region == '1':
-                    queue = thing_no-reply@there.com"
-                    sender = thing_no-reply@there.com"
+                    queue = "thing_no-reply@there.com"
+                    sender = "thing_no-reply@there.com"
                 elif region == '2':
                     queue = "thing_no-reply@there.co.uk"
                     sender = "thing_no-reply@there.co.uk"
